@@ -1,0 +1,243 @@
+import java.util.Scanner;
+
+public class CGPA_Calculator {
+    public static void main(String[] args) {
+        System.out.println("\n");
+        System.out.println(" Calculator of CGPA");
+        System.out.println("\n");
+        System.out.println("Enter Your Semester in Numbers");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if (a == 1) {
+            System.out.println("Enter Your Marks in Fund. of Elec. Engg.  Out of 100 ");
+
+            Scanner sc1 = new Scanner(System.in);
+            int b = sc1.nextInt();
+            if (b >= 90) {
+                int A = 30;
+                System.out.println(" Your GRP.  in Elec. Engg. is " + A);
+            } else if (b >= 80) {
+                int B = 27;
+                System.out.println(" Your GRP.  in Elec. Engg. is " + B);
+            } else if (b >= 70) {
+                int C = 24;
+                System.out.println(" Your GRP.  in Elec. Engg. is " + C);
+            } else if (b >= 60) {
+                int D = 21;
+                System.out.println(" Your GRP.  in Elec. Engg. is " + D);
+            } else {
+                int E = 18;
+                System.out.println(" Your GRP.  in Elec. Engg. is " + E);
+            }
+
+            System.out.println("\n");
+
+                System.out.println("Enter Your Marks in Engg. Chemistry Out of 100 ");
+
+                Scanner sc2 = new Scanner(System.in);
+                int c = sc2.nextInt();
+                if (c >= 90) {
+                    int F = 40;
+                    System.out.println(" Your GRP. in Engg. Chemistry is " + F);
+                } else if (c >= 80) {
+                    int G = 36;
+                    System.out.println(" Your GRP. in Engg. Chemistry is  " + G);
+                } else if (c >= 70) {
+                    int H = 32;
+                    System.out.println(" Your GRP. in Engg. Chemistry is " + H);
+                } else if (c >= 60) {
+                    int I = 28;
+                    System.out.println("Your GRP. in Engg. Chemistry is  " + I);
+                } else {
+                    int J = 24;
+                    System.out.println(" Your GRP. in Engg. Chemistry is  " + J);
+                }
+            System.out.println("\n");
+            System.out.println("Enter Your Marks in Engg. Mathematics  Out of 100 ");
+
+            Scanner sc3 = new Scanner(System.in);
+            int d = sc3.nextInt();
+            if (d >= 90) {
+                int K = 40;
+                System.out.println(" Your GRP. in Engg. Mathematics is " + K);
+            } else if (d >= 80) {
+                int L = 36;
+                System.out.println(" Your GRP. in Engg. Mathematics is  " + L);
+            } else if (d >= 70) {
+                int M = 32;
+                System.out.println(" Your GRP. in Engg. Mathematics is  " + M);
+            } else if (d >= 60) {
+                int N = 28;
+                System.out.println(" Your GRP. in Engg. Mathematics is  " + N);
+            } else {
+                int O = 24;
+                System.out.println(" Your GRP. in Engg. Mathematics is  " + O);
+            }
+            System.out.println("\n");
+            System.out.println("Enter Your Marks in Fund. of Mech. Engg.  Out of 100 ");
+
+            Scanner sc4 = new Scanner(System.in);
+            int e = sc4.nextInt();
+            if (e >= 90) {
+                int P = 30;
+                System.out.println(" Your GRP. in Fund. of Mech. Engg. is " + P);
+            } else if (e >= 80) {
+                int Q = 27;
+                System.out.println(" Your GRP. in Fund. of Mech. Engg. is " + Q);
+            } else if (e >= 70) {
+                int R = 24;
+                System.out.println(" Your GRP. in Fund. of Mech. Engg. is " + R);
+            } else if (e >= 60) {
+                int S = 21;
+                System.out.println(" Your GRP. in Fund. of Mech. Engg. is " + S);
+            } else {
+                int T = 18;
+                System.out.println(" Your GRP. in Fund. of Mech. Engg. is " + T);
+            }
+            System.out.println("\n");
+            System.out.println("Enter Your Marks in Soft Skill  Out of 100 ");
+            Scanner sc5 = new Scanner(System.in);
+            int f = sc5.nextInt();
+            if (f >= 90) {
+                int U = 30;
+                System.out.println(" Your GRP. in Soft Skill  is " + U);
+            } else if (f >= 80) {
+                int V = 27;
+                System.out.println(" Your GRP. in Soft Skill  is " + V);
+            } else if (f >= 70) {
+                int W = 24;
+                System.out.println(" Your GRP. in Soft Skill is " + W);
+            } else if (f >= 60) {
+                int X = 21;
+                System.out.println(" Your GRP. in Soft Skill is " + X);
+            } else {
+                int Y = 18;
+                System.out.println(" Your GRP. in Soft Skill is " + Y);
+            }
+            System.out.println("\n");
+            System.out.println("Enter Your Marks in  Elec. Engg. Practical Out of 100 ");
+
+            Scanner sc6 = new Scanner(System.in);
+            int g = sc6.nextInt();
+            if (g >= 90) {
+                int AA = 10;
+                System.out.println(" Your GRP. in  Elec. Engg. Practical is " + AA);
+            } else if (g >= 80) {
+                int BB = 9;
+                System.out.println(" Your GRP. in  Elec. Engg. Practical is " + BB);
+            } else if (g >= 70) {
+                int CC = 8;
+                System.out.println(" Your GRP. in  Elec. Engg. Practical is " + CC);
+            } else if (g >= 60) {
+                int DD = 7;
+                System.out.println(" Your GRP. in  Elec. Engg. Practical is " + DD);
+            } else {
+                int EE = 6;
+                System.out.println(" Your GRP. in  Elec. Engg. Practical is " + EE);
+            }
+            System.out.println("\n");
+            System.out.println("Enter Your Marks in Chemistry Lab Out of 100 ");
+
+            Scanner sc7 = new Scanner(System.in);
+            int h = sc7.nextInt();
+            if (h >= 90) {
+                int AF = 10;
+                System.out.println(" Your GRP. in Chemistry Lab  is " + AF);
+            } else if (h >= 80) {
+                int BF = 9;
+                System.out.println(" Your GRP. in Chemistry Lab  is " + BF);
+            } else if (h >= 70) {
+                int CF = 8;
+                System.out.println(" Your GRP. in Chemistry Lab  is  " + CF);
+            } else if (h >= 60) {
+                int DG = 7;
+                System.out.println(" Your GRP. in Chemistry Lab  is " + DG);
+            } else {
+                int EH = 6;
+                System.out.println(" Your GRP. in Chemistry Lab  is  " + EH);
+            }
+            System.out.println("\n");
+            System.out.println("Enter Your Marks in WorkShop Lab Out of 100 ");
+
+            Scanner sc8= new Scanner(System.in);
+            int i = sc8.nextInt();
+            if (i >= 90) {
+                int AG= 20;
+                System.out.println(" Your GRP. in WorkShop Lab is " + AG);
+            } else if (i >= 80) {
+                int BG= 18;
+                System.out.println(" Your GRP. in WorkShop Lab is " + BG);
+            } else if (i >= 70) {
+                int CG = 16;
+                System.out.println(" Your GRP. in WorkShop Lab is " + CG);
+            } else if (i >= 60) {
+                int DD= 14;
+                System.out.println(" Your GRP. in WorkShop Lab is " + DD);
+            } else {
+                int EM = 12;
+                System.out.println(" Your GRP. in WorkShop Lab is " + EM);
+                 }
+            System.out.println("\n");
+            System.out.println("Enter Your Marks in Soft Skill Lab Out of 100 ");
+
+            Scanner sc9 = new Scanner(System.in);
+            int j = sc9.nextInt();
+            if (j >= 90) {
+                int AS = 10;
+                System.out.println(" Your GRP. in Soft Skill Lab is " + AS);
+            } else if (j >= 80) {
+                int BS = 9;
+                System.out.println(" Your GRP. in Soft Skill Lab is " + BS);
+            } else if (j >= 70) {
+                int CS = 8;
+                System.out.println(" Your GRP. in Soft Skill Lab is " + CS);
+            } else if (j >= 60) {
+                int DS = 7;
+                System.out.println(" Your GRP. in Soft Skill Lab is " + DS);
+            } else {
+                int ES = 6;
+                System.out.println(" Your GRP. in Soft Skill Lab is " + ES);
+            }
+            System.out.println("\n");
+            System.out.println(" Enter every GRP. one by one ");
+            Scanner sc10 = new Scanner (System.in);
+            int QQ = sc10.nextInt();
+
+            Scanner sc11 = new Scanner (System.in);
+            int WW = sc11.nextInt();
+
+            Scanner sc12 = new Scanner (System.in);
+            int EE = sc12.nextInt();
+
+            Scanner sc13 = new Scanner (System.in);
+            int RR = sc13.nextInt();
+
+            Scanner sc14 = new Scanner (System.in);
+            int TT = sc14.nextInt();
+
+            Scanner sc15 = new Scanner (System.in);
+            int YY = sc15.nextInt();
+
+            Scanner sc16 = new Scanner (System.in);
+            int UU = sc16.nextInt();
+
+            Scanner sc17 = new Scanner (System.in);
+            int II = sc17.nextInt();
+
+            Scanner sc18 = new Scanner (System.in);
+            int OO = sc18.nextInt();
+
+           int sum = QQ + WW + EE+RR+TT+YY+UU+II+OO ;
+            System.out.println("Your Total GRP is " + sum);
+            System.out.println("\n");
+            System.out.println( " Total Credit Score of First Semester is 22" );
+            double pp= sum/22;
+            System.out.println("\n");
+            System.out.println("Hence Your SGPA of " + a + "st Sem. is " + pp);
+
+
+
+        }
+        }
+    }
+
